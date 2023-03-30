@@ -1,0 +1,94 @@
+:root {
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navy-blue-modal: #2e2f42;
+  --grey: #2e2f42;
+  --white: #ffffff;
+  --dairy: #fcfcfc;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--slate);
+}
+/* LOGO */
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  line-height: 1.17;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--iris);
+}
+.logo .studio {
+  color: var(--navy-blue);
+}
+/* ULs */
+.list {
+  list-style: none;
+}
+/* nav links */
+.link-nav {
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--navy-blue);
+  text-decoration: none;
+}
+.site-nav .current {
+  color: var(--ocean);
+}
+.site-nav .link-nav:hover,
+.site-nav .link-nav:focus {
+  color: var(--ocean);
+}
+.adrs .link-adrs {
+  font-weight: 400;
+  line-height: 1.5;
+  font-style: normal;
+  color: var(--slate);
+  text-decoration: none;
+}
+/* address */
+.adrs .link-adrs:hover,
+.adrs .link-adrs:focus {
+  color: var(--ocean);
+}
+/* main */
+.hero-title {
+  font-weight: 700;
+  line-height: 1.07;
+  color: var(--white);
+}
+.btn {
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--white);
+  background-color: var(--iris);
+}
+.hero .btn:hover,
+.hero .btn:focus {
+  background-color: var(--ocean);
+}
+/* main advantages */
+.header-two {
+  font-weight: 700;
+  line-height: 1.11;
+}
+.header-three {
+  font-weight: 500;
+  line-height: 1.2;
+}
+/* footer */
+.studio-footer {
+  color: var(--cloud);
+}
+.text-footer {
+  color: var(--cloud);
+}
