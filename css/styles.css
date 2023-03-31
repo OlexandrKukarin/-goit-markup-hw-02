@@ -92,15 +92,26 @@ body {
 }
 .header-two {
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
   letter-spacing: 0.02em;
-  font-size: 20px;
+  font-size: 36px;
   color: var(--navy-blue);
 }
 .header-three {
   font-weight: 500;
   line-height: 1.2;
+  letter-spacing: 0.02em;
+  font-size: 20px;
   color: var(--navy-blue);
+}
+/* main team */
+.team {
+  background-color: var(--cloud);
+}
+.list-point {
+  background-color: var(--white);
 }
 /* footer */
 .studio-footer {
@@ -126,6 +137,7 @@ body {
 .text {
   font-weight: 400;
   line-height: 1.5;
+  font-size: 16px;
   letter-spacing: 0.02em;
   color: var(--slate);
 }
