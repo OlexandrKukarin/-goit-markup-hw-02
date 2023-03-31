@@ -80,10 +80,12 @@ body {
 .header-two {
   font-weight: 700;
   line-height: 1.11;
+  color: var(--navy-blue);
 }
 .header-three {
   font-weight: 500;
   line-height: 1.2;
+  color: var(--navy-blue);
 }
 /* footer */
 .studio-footer {
@@ -91,4 +93,28 @@ body {
 }
 .text-footer {
   color: var(--cloud);
+}
+
+/* PORTFOLIO */
+.btn-portfolio {
+  color: var(--iris);
+  background-color: var(cloud);
+}
+.btn-portfolio:hover,
+.btn-portfolio:focus {
+  color: var(--white);
+  background-color: var(--ocean);
+}
+.link {
+  text-decoration: none;
+}
+.text {
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--slate);
+}
+.header-portf {
+  font-weight: 500;
+  line-height: 1.2;
+  color: var(--navy-blue);
 }
