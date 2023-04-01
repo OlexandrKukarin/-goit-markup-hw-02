@@ -90,6 +90,7 @@ body {
 }
 /* main advantages */
 .advantages {
+  color: var(--navy-blue);
 }
 .header-two {
   font-weight: 700;
