@@ -50,10 +50,12 @@ body {
 .site-nav .link-nav:focus {
   color: var(--ocean);
 }
+.adrs {
+  font-style: normal;
+}
 .adrs .link-adrs {
   font-weight: 400;
   line-height: 1.5;
-  font-style: normal;
   color: var(--slate);
 }
 /* address */
@@ -120,17 +122,6 @@ body {
 .text-footer {
   color: var(--cloud);
 }
-
-/* PORTFOLIO */
-.btn-portfolio {
-  color: var(--iris);
-  background-color: var(cloud);
-}
-.btn-portfolio:hover,
-.btn-portfolio:focus {
-  color: var(--white);
-  background-color: var(--ocean);
-}
 .link {
   text-decoration: none;
 }
@@ -141,6 +132,21 @@ body {
   letter-spacing: 0.02em;
   color: var(--slate);
 }
+
+.foot {
+  background-color: var(--navy-blue);
+}
+/* PORTFOLIO */
+.btn-portfolio {
+  color: var(--iris);
+  background-color: var(cloud);
+}
+.btn-portfolio:hover,
+.btn-portfolio:focus {
+  color: var(--white);
+  background-color: var(--ocean);
+}
+
 .header-portf {
   font-weight: 500;
   line-height: 1.2;
